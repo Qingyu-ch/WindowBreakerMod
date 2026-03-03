@@ -1,0 +1,134 @@
+{
+  "mod_elements": [
+    {
+      "name": "WindowLink",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "window_link",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/windowbreaker/procedures/WindowLinkProcedure.java"
+        ],
+        "return_type": "logic"
+      }
+    },
+    {
+      "name": "Breaker",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "breaker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/windowbreaker/entity/BreakerEntity.java",
+          "src/main/resources/assets/window_breaker/models/item/breaker_spawn_egg.json",
+          "src/main/resources/data/window_breaker/forge/biome_modifier/breaker_biome_modifier.json",
+          "src/main/java/net/mcreator/windowbreaker/client/renderer/BreakerRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "BreakAdminPnet",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "break_admin_pnet",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/windowbreaker/procedures/BreakAdminPnetProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "TypeBreakAdmin",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.window_breaker.breaker_spawn_egg": "Breaker Spawn Egg",
+      "entity.window_breaker.breaker": "Breaker"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/windowbreaker/init/WindowBreakerModItems.java",
+      "src/main/java/net/mcreator/windowbreaker/init/WindowBreakerModEntityRenderers.java",
+      "src/main/java/net/mcreator/windowbreaker/init/WindowBreakerModEntities.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/windowbreaker/init/WindowBreakerModModels.java",
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/java/net/mcreator/windowbreaker/init/WindowBreakerModTabs.java",
+      "src/main/java/net/mcreator/windowbreaker/WindowBreakerMod.java",
+      "src/main/java/net/mcreator/windowbreaker/network/WindowBreakerModVariables.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "window_breaker",
+    "modName": "Window Breaker",
+    "version": "0.1.0",
+    "description": "The Window-Breaker",
+    "author": "清羽LE/Qingyu_ch,MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "modPicture": "oip-c",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.windowbreaker"
+  },
+  "mcreatorVersion": 202500345720
+}

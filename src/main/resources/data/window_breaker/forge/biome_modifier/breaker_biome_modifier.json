@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "window_breaker:breaker",
+    "weight": 10,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}
