@@ -1,3 +1,2 @@
-run/saves
-run/logs
-run/resourcepacks
+/run/saves/
+/run/logs
